@@ -1,0 +1,279 @@
+/* General styles */
+
+/* Resetting default styles for consistent rendering */
+html, body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+    -webkit-font-smoothing: antialiased; /* for smoother fonts on webkit browsers */
+    -moz-osx-font-smoothing: grayscale; /* for smoother fonts on firefox */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Enhanced Navigation Bar */
+nav {
+    background: #fff; /* Light background */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    padding: 20px 0;
+    position: sticky; /* Fixed navigation */
+    top: 0;
+    z-index: 100; /* Ensure it stays on top */
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #50b3a2; /* Highlight color on hover */
+}
+
+/* Hero Header */
+header {
+    background: linear-gradient(135deg, #70e1f5, #50b3a2); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+    margin-bottom: 30px;
+    border-radius: 0 0 30px 30px; /* Rounded bottom corners */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Deeper shadow */
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for emphasis */
+}
+
+header p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.7;
+}
+
+/* Sections */
+section {
+    background: #fff;
+    padding: 40px;
+    margin: 30px 0;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08); /* More pronounced shadow */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+section:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+section h2 {
+    color: #50b3a2;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #50b3a2;
+    padding-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid #555;
+}
+
+/* Utility Classes */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #50b3a2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #419687;
+}
+
+.text-center {
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+header {
+    background: #50b3a2;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional container styles */
+.container-fluid {
+    width: 100%;
+    padding: 20px;
+    background: #e9ecef;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-small {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Room services styles */
+.room-services {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.room-services h2 {
+    margin-top: 0;
+}
+
+/* Spa & Wellness styles */
+.spa-wellness {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.spa-wellness h2 {
+    margin-top: 0;
+}
+
+/* Conference rooms styles */
+.conference-rooms {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.conference-rooms h2 {
+    margin-top: 0;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
